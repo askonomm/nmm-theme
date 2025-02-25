@@ -1,0 +1,63 @@
+# Syntax
+# -----
+"keyword" = { fg = "c1" }
+"keyword.function" = { fg = "c2" }
+"function" = { fg = "c3" }
+"function.macro" = { fg = "c4" }
+"variable" = { fg = "c5" }
+"variable.parameter" = { fg = "c6" }
+"variable.builtin" = "c7"
+"variable.other.member" = { fg = "c8" }
+"punctuation.delimiter" = { fg = "c9" }
+"punctuation.bracket" = { fg = "c10" }
+"comment" = { fg = "c11" }
+"constant" = "c12"
+"constructor" = "c13"
+"type" = "c14"
+"type.builtin" = "c18"
+"label" = "c15"
+"tag" = "c16"
+"attribute" = { fg = "c17" }
+"operator" = { fg = "c10" }
+"keyword.storage" = "c19"
+"keyword.storage.type" = { fg = "c19" }
+"keyword.storage.modifier" = "c20"
+"keyword.control" = "c21"
+"type.enum" = "c22"
+"string" = "c23"
+
+# Interface
+# -----
+"ui.background" = { fg = "c1" }
+"ui.bufferline" = { fg = "c1" }
+"ui.statusline" = { fg = "c1" }
+"ui.selection" = { fg = "c1", bg = "#3C3744" }
+"error" = "#FF3562"
+"warning" = "#FED766"
+"info" = "c1"
+"hint" = "c1"
+
+[palette]
+c1 = "#FFFFFF"
+c2 = "#81F7E5"
+c3 = "#89DAFF"
+c4 = "#DEC1FF"
+c5 = "#F2D0A4"
+c6 = "#D6FF79"
+c7 = "#F881BB"
+c8 = "#9AE5E6"
+c9 = "#777777"
+c10 = "#999999"
+c11 = "#615D6C"
+c12 = "#FF8F44"
+c13 = "#68D89B"
+c14 = "#68D89B"
+c15 = "#FFFD82"
+c16 = "#D2F898"
+c17 = "#f686bd"
+c18 = "#F881BB"
+c19 = "#C6EBBE"
+c20 = "#58FCEC"
+c21 = "#00F2F2"
+c22 = "#B0E298"
+c23 = "#DDFFBC"
