@@ -1,6 +1,6 @@
 # Syntax
 # -----
-"keyword" = { fg = "c1" }
+"keyword" = { fg = "c7" }
 "keyword.function" = { fg = "c2" }
 "function" = { fg = "c3" }
 "function.macro" = { fg = "c4" }
@@ -35,13 +35,14 @@
 "ui.bufferline" = "#444444"
 "ui.bufferline.active" = "#777777"
 "ui.statusline" = { fg = "c1" }
-"ui.selection" = { bg = "#3C3744" }
+"ui.selection" = { bg = "#092327" }
+"ui.selection.primary" = { bg = "#343a40" }
+"ui.cursorline.primary" = { bg = "#343a40" }
 "ui.linenr" = "#444444"
 "ui.linenr.selected" = "#777777"
 "ui.text.focus" = { fg = "c1" }
 "ui.text.inactive" = { fg = "#999999" }
 "ui.text.directory" = { fg = "#999999" }
-"ui.highlight" = { bg = "#333333" }
 "ui.menu.selected" = { bg = "#333333" }
 "error" = "#FF3562"
 "warning" = "#FED766"
